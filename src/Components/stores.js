@@ -33,6 +33,6 @@ export const rules = writable({
 		down: ['s', 'ArrowDown'],
 		left: ['a', 'ArrowLeft']
 	},
-	edgeWrap: true,
+	edgeWrap: false,
 	pointsPerApple: 10
 })

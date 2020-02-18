@@ -1,20 +1,15 @@
 <script>
-  import Canvas from "./Canvas.svelte";
-  import Snake from "./Snake.svelte";
-  import Apple from "./Apple.svelte";
-  import GameLoop from "./GameLoop.svelte";
-  import PlayerControls from "./PlayerControls.svelte";
-  import Score from "./Score.svelte";
+  import Canvas from "./Components/Canvas.svelte";
+  import Snake from "./Components/Snake.svelte";
+  import Apple from "./Components/Apple.svelte";
+  import GameLoop from "./Components/GameLoop.svelte";
+  import PlayerControls from "./Components/PlayerControls.svelte";
+  import Score from "./Components/Score.svelte";
 </script>
 
 <style>
-  :global(body) {
-    padding: 0;
-    max-height: 90%
-  }
   main {
     text-align: center;
-    /* margin: 0 auto; */
   }
 
   h1 {
@@ -32,5 +27,5 @@
   </Canvas>
   <GameLoop />
   <PlayerControls />
-  <Score />
+  <Score />  
 </main>
